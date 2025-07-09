@@ -9,8 +9,8 @@ export const ThemeContext = createContext<ThemeType | null>(null)
 
 export function ThemeProvider({
     children,
-    defaultTheme = "system",
-    storageKey = "shadcn-ui-theme",
+    defaultTheme = "light",
+    storageKey = "theme",
 }: {
     children: ReactNode
     defaultTheme?: string
